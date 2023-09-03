@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 
 
-//MongoDB connection string
+//MongoDB connection
 mongoose
   .connect(
     process.env.MONGO_URI,
